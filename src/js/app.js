@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
   span.class = 'data-price'
   span.className = 'data-price'
   span.innerHTML = price
-  span.setAttribute('data-price', price)
+  div.setAttribute('data-price', price)
   div.appendChild(span)
 
 });
